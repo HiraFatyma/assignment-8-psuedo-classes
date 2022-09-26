@@ -1,0 +1,68 @@
+body{
+    background-image: url(./dessert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+  }
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:active{
+    color: aquamarine !important;
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.navbar li a:hover{
+    color: plum;
+}
+.sidebar{
+    width: 250px;
+    height:80px;
+    border: 3px solid whitesmoke;
+    border-radius: 15px;
+    float: right;
+}
+p{
+padding-right: 10px;
+padding-left: 10px;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: purple;
+}
+.child li:first-child{
+color: rgb(234, 114, 114);
+}
+.child li:last-child{
+    color: rgb(110, 200, 80);
+}
+.child{
+    position: fixed;
+    bottom: 10px;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
